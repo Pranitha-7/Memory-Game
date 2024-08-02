@@ -1,0 +1,64 @@
+.App{
+  max-width: 860px;
+  margin: 50px auto ;
+  text-decoration: none;
+}
+.buttons{
+  align-items: center;
+  text-emphasis: none;
+  text-decoration: none;
+
+}
+button{
+  background: none;
+  border: 3px solid #ffff;
+  margin:50px 0;
+  padding: 10px 70px;
+  width: 300px;
+  border-radius:7px;
+  color:rgb(238, 244, 240);
+  font-weight: bold;
+  cursor:pointer;
+  font-family:cursive;
+  font-size:1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none; 
+  margin-left: 250px;
+  
+}
+button:hover{
+  background: rgb(95, 101, 195);
+  color: #ffff;
+}
+.App .head{
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-size: 4.1em;
+  font-style: normal; 
+}
+.card-grid{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns:  3fr 3fr 3fr 3fr ;
+  grid-gap: 10px 0px;
+  
+
+  }
+  .card-grids{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns:  2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-gap: 10px 0px;
+    
+  
+    }
+    .card-gridss{
+      margin-top: 40px;
+      display: grid;
+      grid-template-columns:  2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+      grid-gap: 10px 0px;
+      
+    
+      }
